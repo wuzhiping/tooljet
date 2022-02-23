@@ -1,0 +1,44 @@
+# Create .env from this example file and replace values for the environment.
+# The application expects a separate .env.test for test environment configuration
+
+TOOLJET_HOST=http://10.1.33.44
+LOCKBOX_MASTER_KEY=0000000000000000000000000000000000000000000000000000000000000000
+SECRET_KEY_BASE=replace_with_secret_key_base
+
+# DATABASE CONFIG
+ORM_LOGGING=
+PG_DB=TOOLJET
+PG_USER=axelor
+PG_HOST=postgresdb
+PG_PASS=axelor
+
+# Checks every 24 hours to see if a new version of ToolJet is available
+CHECK_FOR_UPDATES=check_if_updates_are_available
+
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+
+# EMAIL CONFIGURATION
+DEFAULT_FROM_EMAIL=hello@tooljet.io
+SMTP_USERNAME=
+SMTP_PASSWORD=
+SMTP_DOMAIN=
+SMTP_PORT=
+
+# DISABLE USER SIGNUPS (true or false). Default: true
+DISABLE_SIGNUPS=
+
+# OBSERVABILITY
+APM_VENDOR=
+SENTRY_DNS=
+SENTRY_DEBUG=
+
+# FEATURE TOGGLE
+COMMENT_FEATURE_ENABLE=
+
+#SSO
+SSO_DISABLE_SIGNUP=
+SSO_RESTRICTED_DOMAIN=
+SSO_GOOGLE_OAUTH2_CLIENT_ID=
+SSO_GIT_OAUTH2_CLIENT_ID=
+SSO_GIT_OAUTH2_CLIENT_SECRET=
